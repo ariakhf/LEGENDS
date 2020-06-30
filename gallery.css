@@ -1,0 +1,113 @@
+
+
+body{font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(pictures/white-sky-1040473.jpg);
+    background-position: center;
+    height: 200vh;
+    background-size: cover;
+}
+
+
+
+.aks img{
+    width: 240px;
+    padding: 26px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.aks img:hover{
+    filter:grayscale(0%);
+    transform: scale(1.1);
+
+}
+.aks{
+    margin:12% 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title h3{
+    position: center;
+    font-size: 70px;
+    background: linear-gradient(to left,mediumpurple,deeppink,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: "Century Gothic";
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 28%;}
+
+/*--------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";}
+.logo img{
+    float: left;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;}
+ul{
+    float:right;
+    margin-top: 10px;
+}
+ul li {display:inline-block ;
+}
+ul li a {
+    text-decoration: none;
+    color: mediumpurple;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: bolder;
+}
+ul li a:hover{
+    background-color: pink;
+    color: rebeccapurple;
+    transition: 0.5s;
+}
+.main {
+    max-width: 1500px;
+    margin: auto;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li.active a {
+    background-color: pink;
+    color: rebeccapurpler;
+    transition: 0.5s;
+}
+h1{
+    color: white;
+    padding:10%;
+    font-size: 60px;
+}
+h2{
+    position: absolute;
+    margin-top: 91%;
+    font-size: 60px;
+    margin-left: 18%;
+    transition: 0.5s;
+    background: linear-gradient(to right, #f32170 , #ffeb07 , #2196f3 , #ff00eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2:hover{
+    transform:scale(1.1);}
